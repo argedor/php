@@ -21,11 +21,4 @@ class Faceray
         return $server_output ;
 	}
 }
-
-$faceray = new Faceray();
-$faceray->apiId = '1';
-$faceray->apiKey = '1';
-$faceray->yourImageUrl = 'http://159.69.86.20/faceray/images/test.jpg';
-$response = $faceray->client();
-echo $response;
 ?>
